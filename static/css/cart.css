@@ -64,7 +64,7 @@
 	grid-template-areas:
 		"Image . Name     . Total"
 		"Image . Details  . Total"
-		"Image . Quantity . Total"
+		"Image . Cantidad . Total"
 		"Image . Action   . Total";
 	margin-bottom: 40px;
 	}
@@ -109,7 +109,7 @@
 	}
 
 #cart tr .qty {
-	grid-area: Quantity;
+	grid-area: Cantidad;
 	display: flex;
 	align-items: center;
 	padding-top: 2.1rem;

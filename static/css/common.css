@@ -1253,7 +1253,7 @@ body {
 	grid-template-areas:
 		"Image . Name     Name       . Total . Action"
 		"Image . Details  Details    . Total . Action"
-		"Image . Quantity Unit-Price . Total . Action";
+		"Image . Cantidad Unit-Price . Total . Action";
 	margin-bottom: 30px;
 	}
 
@@ -1296,12 +1296,12 @@ body {
 	}
 
 #cart-panel tr .qty {
-	grid-area: Quantity;
+	grid-area: Cantidad;
 	font-size: 1.4rem;
 	}
 
 #cart-panel tr .qty::before {
-	content: "Quantity: ";
+	content: "Cantidad: ";
 	}
 
 #cart-panel tr .unit {
